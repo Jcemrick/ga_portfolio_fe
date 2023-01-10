@@ -12,9 +12,9 @@ function Header(props) {
     };
 
     return <>
-    <header>
+    <header className='header'>
         <h1>My Portfolio Page</h1>
-        <nav styel={navStyle}>
+        <nav style={navStyle}>
             <Link to='/'>
                 <div>HOME</div>
             </Link>
