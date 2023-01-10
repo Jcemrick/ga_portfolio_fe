@@ -5,7 +5,7 @@ function About(props) {
     const about = useLoaderData()
 
     return <>
-    <div>
+    <div className='aboutcontainer'>
         <h2>{about.name}</h2>
         <h3>{about.email}</h3>
         <p>{about.bio}</p>

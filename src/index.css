@@ -24,3 +24,18 @@
     height: 20rem;
     margin: auto;
 }
+
+.aboutcontainer {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.projectscontainer {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.projectscontainer img {
+    height: 20rem;
+    margin: auto;
+}
