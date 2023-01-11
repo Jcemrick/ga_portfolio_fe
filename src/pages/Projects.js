@@ -9,7 +9,9 @@ function Projects(props) {
     <div className='projectscontainer'>
         <div>
         <h1>{project.name}</h1>
+        <div className='imgcontainer'>
         <img src={project.image} />
+        </div>
         </div>
         <a href={project.git}>
             <button>Github</button>
