@@ -31,11 +31,19 @@
 }
 
 .projectscontainer {
-    padding-top: 3rem;
+    display: block;
+    padding-top: 6rem;
     text-align: center;
 }
 
 .projectscontainer img {
-    height: 20rem;
+    height: 15rem;
+    margin: auto;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+
+.projectscontainer a {
+    display: inline-block;
     margin: auto;
 }
