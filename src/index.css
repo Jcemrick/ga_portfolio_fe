@@ -23,6 +23,8 @@
 .homecontainer img {
     height: 20rem;
     margin: auto;
+    border-radius: 2%;
+    border: 2px solid black;
 }
 
 .aboutcontainer {
